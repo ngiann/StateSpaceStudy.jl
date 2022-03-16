@@ -8,6 +8,10 @@ module StateSpaceStudy
 
     include("simulatedata.jl")
 
+    include("Example_4_3.jl")
+
+    include("Example_4_2.jl")
+
     export simulatedata, filteringrecursion, smoothingrecursion
 
 end
